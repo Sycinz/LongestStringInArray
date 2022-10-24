@@ -3,7 +3,7 @@
 
 int main() {
     std::string list[10];
-    int arr[10], count[10], j, n{10};
+    int arr[10], count[10], n{10}, j;
 
     for (int i = 0; i < 10; i++) {
         std::getline(std::cin, list[i]);
@@ -21,7 +21,7 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         if(list[i].length() == arr[0]) {
-            std::cout << "Longest word in array: " << list[i] << std::endl;
+            std::cout << "Longest string in array: " << list[i] << std::endl;
         }
     }
 
